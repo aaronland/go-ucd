@@ -13,3 +13,6 @@ cli:
 	go build -mod vendor -o bin/ucd cmd/ucd/main.go
 	go build -mod vendor -o bin/ucd-dump cmd/ucd-dump/main.go
 	go build -mod vendor -o bin/ucd-server cmd/ucd-server/main.go
+
+wasm:
+	GOOS=js GOARCH=wasm go build -mod vendor -o www/wasm/ucd.wasm cmd/ucd-wasm/main.go
