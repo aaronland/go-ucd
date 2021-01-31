@@ -1,6 +1,6 @@
-VERSION=13.0.0
-UNICODE_DATA=UnicodeData.txt
-UNIHAN_DATA=Unihan.zip
+VERSION=14.0.0
+UNICODE_DATA=UnicodeData-$(VERSION)d4.txt
+UNIHAN_DATA=Unihan-$(VERSION)d3.zip
 
 data:
 	go run cmd/ucd-build-unicodedata/main.go -data https://www.unicode.org/Public/$(VERSION)/ucd/$(UNICODE_DATA) > unicodedata/unicodedata.go
