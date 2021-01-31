@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	ucd "github.com/aaronland/go-ucd"
+	ucd "github.com/aaronland/go-ucd/v14"
 	"net/http"
 	"strings"
 )
