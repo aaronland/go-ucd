@@ -122,7 +122,7 @@ To install as an init.d script, copy the example provided, replace the values of
 
 ## Versions
 
-`go-ucd` supports Unicode 15.0 as of August 09, 2023 and requires Go [1.21](https://golang.org/dl) or higher to compile.
+`go-ucd` supports Unicode 17.0 as of October 13, 2026 and requires Go [1.27.2](https://golang.org/dl) or higher to compile.
 
 This package exports data defined in the `UnicodeData.txt` and the `Unihan.zip`. Both are available from
 http://unicode.org/Public/UCD/latest/ucd/.
@@ -138,10 +138,6 @@ go run ./cmd/ucd-build-unihan.go > ./unihan/unihan.go
 ```
 
 _Note: You will need to recompile your `ucd` and `ucd-server` binaries manually._
-
-## Shout outs
-
-Many thanks to friend and Go-friend [Richard Crowley](https://github.com/rcrowley) who is always kind and patient answering my Go-related questions. Go is lovely but Go is weird.
 
 ## See also
 
