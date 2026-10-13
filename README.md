@@ -11,7 +11,7 @@ _This package was forked from the [cooperhewitt/ucd](https://github.com/cooperhe
 	import(
 		"fmt"
 		"flag"
-		"github.com/aaronland/go-ucd/v15"
+		"github.com/aaronland/go-ucd/v17"
 	)
 
 	func main(){
